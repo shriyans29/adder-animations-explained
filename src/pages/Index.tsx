@@ -1,4 +1,3 @@
-import { Header } from "@/components/Header";
 import { Hero } from "@/components/Hero";
 import { HalfAdder } from "@/components/HalfAdder";
 import { FullAdder } from "@/components/FullAdder";
@@ -8,7 +7,6 @@ import { UseCases } from "@/components/UseCases";
 const Index = () => {
   return (
     <main className="min-h-screen">
-      <Header />
       <Hero />
       <HalfAdder />
       <FullAdder />
